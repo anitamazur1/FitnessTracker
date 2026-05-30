@@ -43,5 +43,24 @@ public class User {
         this.birthdate = birthdate;
         this.email = email;
     }
-
+    public Long getId()
+    {
+        return this.id;
+    }
+    public String getEmail()
+    {
+        return this.email;
+    }
+    public String getFirstName()
+    {
+        return this.firstName;
+    }
+    public String getLastName()
+    {
+        return this.lastName;
+    }
+    public LocalDate getBirthdate()
+    {
+        return this.birthdate;
+    }
 }
